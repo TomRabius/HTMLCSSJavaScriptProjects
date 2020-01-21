@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #333;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+}
+
+.btn-main {
+    color: white;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-main:hover {
+    background-color: #2D9CDB;
+}
+
+.btn-remove {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-remove:hover {
+    background-color: #CC4C4C;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+    float: right;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    
+}
+
+/*
+---------------------------------Games-------------------------------------
+*/
+.shop-game {
+    margin: 30px;
+}
+
+.shop-game-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.game-image {
+    height: 250px;
+}
+
+.game-info {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.game-price {
+    flex-grow: 1;
+    color: #333;
+}
+
+.shop-games {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/*
+-------------------------------------CART-----------------------------------------
+*/
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-game {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-game-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-game-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-totaal {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-totaal-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-totaal-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.containerKassabon {
+	background-color: white;
+	width: 450px;
+	border: 1px solid black;
+	margin: 50px;
+	padding: 25px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    float:left;
+}
+
+h1.ShopTitle {
+    text-align: center;
+    background-color: #56CCF2;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.bedankt {
+      text-align: center;
+      color:#333;
+}
+
+hr {
+      border-top:dotted 3px;
+}
+
+#datetime {
+	float:right;
+}
+

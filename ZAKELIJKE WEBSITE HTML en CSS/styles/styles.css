@@ -1,0 +1,49 @@
+/*Default browser layout reset ---------------------------------------------------------------------------------------------------------------------------------------------------*/
+* {
+    box-sizing: border-box;
+    color: #333;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+/* Custom CSS -------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+body {
+    background-color: rgba(245, 252, 253, 0.966);
+    font-family: 'Lato', sans-serif;
+    
+}
+
+#mainNavbar .navbar-brand {
+    color: rgb(82, 235, 51);
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+#mainNavbar .nav-link {
+    color:rgb(82, 235, 51);
+}
+
+#mainNavbar .nav-link:hover {
+    color:rgb(255, 255, 255);
+}
+
+.hrColor {
+    border: 1.5px solid rgb(82, 235, 51);
+    width:140px;
+}
+
+.hr2 {
+    display: inline-block;
+  }
+  .hr2:after {
+    content: '';
+    display: block;
+    border-top: 3px solid rgb(82, 235, 51);
+    margin-top: 0.5em;
+  }
+
+  #mainForm {
+      width: 400px;
+  }
